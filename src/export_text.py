@@ -47,7 +47,7 @@ def save_texts(titles_list):
 
 
 def main():
-    titles_list = get_titles_list(skip=74, limit=500)
+    titles_list = get_titles_list(limit=500)
     time.sleep(1)
     save_texts(titles_list)
 

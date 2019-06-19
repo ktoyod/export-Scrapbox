@@ -108,12 +108,11 @@ def main(output_text_path=None, output_md_path=None):
 
     titles_list = os.listdir(OUTPUT_TEXT_PATH)
     for title in titles_list:
-        print('title -> md_file_name : ', end='')
-
         text_file_path = os.path.join(OUTPUT_TEXT_PATH, title)
 
         md_file_name = title.rstrip('txt') + 'md'
         md_file_path = os.path.join(OUTPUT_MD_PATH, md_file_name)
+        print(f'{title} -> {md_file_name} : ', end='')
 
         txt2md(text_file_path, md_file_path)
 

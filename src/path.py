@@ -9,3 +9,6 @@ class Path(object):
 
     OUTPUT_TEXT_DIR = 'output_text'
     OUTPUT_TEXT_PATH = os.path.join(BASE_PATH, OUTPUT_TEXT_DIR)
+
+    OUTPUT_MD_DIR = 'output_md'
+    OUTPUT_MD_PATH = os.path.join(BASE_PATH, OUTPUT_MD_DIR)

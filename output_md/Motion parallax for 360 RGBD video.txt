@@ -1,0 +1,23 @@
+Motion parallax for 360 RGBD video
+#ieeevr2019 #TECH_MEMO #ieeevr2019_Session1
+
+[Motion parallax for 360 RGBD video http://webdiis.unizar.es/~aserrano/projects/VR-6dof]
+
+Commercially camera
+
+mesh-based depth reprojection
+
+ Three layers
+  Foreground layer
+  extraplated layer
+  inpainted layer
+
+ Depth improvement
+
+ Results
+
+ Evaluation
+  Experiment 1: Preference (blind)
+  Experiment 2: Sickness
+  Experimant 3: Preference(non-blind)
+

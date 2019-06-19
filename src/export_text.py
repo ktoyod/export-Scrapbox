@@ -20,7 +20,7 @@ def get_titles_list(skip=0, limit=100):
 
 
 def get_text(title):
-    text_url = urljoin(config.Config.PROJECT_URL, f'{title}/text')
+    text_url = urljoin(config.Config.PROJECT_URL + '/', f'{title}/text')
     text = requests.get(text_url, cookies={'connect.sid': config.Config.CONNECT_SID})
     return text.text
 
